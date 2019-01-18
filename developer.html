@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- AUTHOR: SRI GAYATRI -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- AUTHOR: SRI GAYATRI -->
+<style>
+p {
+	border: 2px solid #0066FF;
+	background-color:#FFCC33;
+	padding:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+ul {
+    background: #0066FF;
+    padding: 2px;
+}
+ul li {
+    background: #FFCC33;
+    margin: 1px;
+}
+
+body {
+    background: linear-gradient(to left, #C02425 , #F0CB35); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+</style>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<!-- Include the JQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Include the Timer class first so background.js can use timers -->
+	<script type = "text/javascript" src="js/timer.js"></script>
+	<script type = "text/javascript" src="js/developer.js"></script>
+	<script type = "text/javascript" src="js/storage.js"></script>
+	<!--<script type = "text/javascript" src="alert.js"></script>-->
+	<!-- Included storage.js -->
+	<p id="foo" value = '5'></p>
+
+</head>
+<body>
+<p id=test>Slacker Hacker test suite</p>
+<p id=startPage>start timer</p>
+<p id=pausePage>pause timer</p>
+<p id=stopPage>stop timer</p>
+<p id=goodTimer>0:00</p>
+<p id=badTimer>0:00</p>
+<br>
+	<button type="button" id='clearStorage'>Clear Storage</button>
+<br>
+<ul>
+	<li id="startGoodTimer">test goodTimer start</li>
+	<li id="pauseGoodTimer">test goodTimer pause</li>
+	<li id="stopGoodTimer">test goodTimer stop</li>
+	<li id="timerName">test get Timer name</li>
+	<li id="startBadTimer">test badTimer start</li>
+	<li id="pauseBadTimer">test badTimer pause</li>
+	<li id="stopBadTimer">test badTimer stop</li>
+	<li id="popUpTest">test if confirmation alert appears</li>
+	<li id="badTimerTest">test if the bad timer is started upon visited blacklisted webstie</li>
+	<li id="redirToGoogle">test if the page is redirected to google upon clicking cancel on the comfirmation alert</li>
+	<li id="graphsMade">test to see if a graph is made</li>
+</ul>
+
+
+</body>
+
+</html>
